@@ -31,16 +31,10 @@ targets:
     mode: development
     default: true
     variables:
-      catalog_name: dev
-    workspace:
-      # TODO: add dev workspace URL
-      host:
-
-  staging:
-    variables:
       catalog_name: peishi_test
     workspace:
       host: https://adb-1150699392227017.17.azuredatabricks.net
+
 
   prod:
     variables:
@@ -48,8 +42,3 @@ targets:
     workspace:
       host: https://adb-4093306949534053.13.azuredatabricks.net
 
-  test:
-    variables:
-      catalog_name: peishi_test
-    workspace:
-      host: https://adb-1150699392227017.17.azuredatabricks.net
