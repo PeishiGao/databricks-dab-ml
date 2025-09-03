@@ -8,10 +8,10 @@ bundle:
 variables:
   experiment_name:
     description: Experiment name for the model training.
-    default: /Users/${workspace.current_user.userName}/${bundle.target}-databricks-dab-ml-experiment
+    default: nyc-taxi-fare-experiment
   model_name:
     description: Model name for the model training.
-    default: databricks-dab-ml-model
+    default: nyc-taxi-fare-model
   catalog_name:
     description: The catalog name to save the trained model
     
